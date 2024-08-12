@@ -1,0 +1,195 @@
+body{
+    margin:0px;
+}
+
+.hero{
+    position: relative;
+    height: 90vh;
+}
+
+video{
+   
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+.info{
+    
+    width: 500px;
+    background: rgba(214, 208, 208, 0.527);
+    border-radius: 20px;
+    position: absolute;
+    color: wheat;
+    left:100px;
+    top:300px;
+    padding: 10px;
+    backdrop-filter: blur(5px);
+}
+.arrow{
+    position: absolute;
+    color:red;
+    animation: circle 0.75s infinite linear;
+
+}
+
+@keyframes circle {
+    0%{
+        right: 50%;
+        bottom: 25px;
+    }
+     100%{
+        right: 50%;
+        bottom: 12px; 
+    }
+}
+
+.nav{
+    background: black;
+    position: sticky;
+    top:0;
+}
+
+.pos{
+    width: 80%;
+    margin: auto;
+    font-size: small;
+   
+   
+}
+.nav div{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color:orange;
+    
+    
+}
+
+.link a{
+    text-decoration: none;
+    color: orange;
+    padding: 10px;
+}
+
+.one1{
+    height: 80vh;
+    background: url(resources/c1.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one1 div{
+  
+    
+    height: 35px;
+    width: 150px;
+    background: rgba(97, 96, 96, 0.815);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+
+
+.one2{
+   
+    height: 80vh;
+    background: url(resources/c2.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.one2 div{
+  
+    
+    height: 35px;
+    width: 150px;
+    background: rgba(97, 96, 96, 0.815);
+    color:white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.one3{
+    
+    height: 80vh;
+    background: url(resources/c3.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.one3 div{
+  
+    
+    height: 35px;
+    width: 150px;
+    background: rgba(97, 96, 96, 0.815);
+    color:white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.one4{
+  
+    height: 80vh;
+    background: url(resources/r1.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.one4 div{
+  
+    
+    height: 35px;
+    width: 150px;
+    background: rgba(97, 96, 96, 0.815);
+    color:white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    font-size: small;
+}
